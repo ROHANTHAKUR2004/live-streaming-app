@@ -29,7 +29,7 @@ const VideoPlayer : React.FC<VideoPlayerProps> = ({src}) => {
         <>
         <video ref={videoref}
          controls
-         style={{width : '500px', height: '500px'}}
+         style={{width : '1200px', height: '500px'}}
           />
         </>
     )

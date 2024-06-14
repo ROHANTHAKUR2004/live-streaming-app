@@ -1,0 +1,53 @@
+/* App.css */
+
+/* General reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Styling for the App component */
+  .app {
+    text-align: center;
+  }
+  
+  .app-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #61dafb;
+    letter-spacing: 2px;
+  }
+  
+  
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Fullscreen styling */
+  .fullscreen .video-container {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  
+  .fullscreen .video-container video {
+    border-radius: 0;
+  }
+  
